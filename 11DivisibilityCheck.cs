@@ -11,7 +11,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter a number");
+        Console.WriteLine("Enter a number");
         int number = Convert.ToInt32(Console.ReadLine());
 
         if (number % 5 == 0 && number % 11 == 0)
