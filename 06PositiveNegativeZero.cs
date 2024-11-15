@@ -12,7 +12,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter a whole");
+        Console.WriteLine("Enter a whole");
         double whole = Convert.ToDouble(Console.ReadLine());
 
         if (whole> 0)
