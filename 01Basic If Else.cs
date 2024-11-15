@@ -11,20 +11,20 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter an integer");
+        Console.WriteLine("Enter an integer");
         int number = Convert.ToInt32(Console.ReadLine());
 
         if (number > 0)
         {
-            Console.Write("The number is positive");
+            Console.WriteLine("The number is positive");
         }
         else if (number < 0)
         {
-            Console.Write("The number is negative");
+            Console.WriteLine("The number is negative");
         }
         else
         {
-            Console.Write("The number is zero");
+            Console.WriteLine("The number is zero");
         }
     }
 }
