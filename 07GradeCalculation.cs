@@ -12,7 +12,7 @@ class Program
     static void Main()
     {
        
-        Console.Write("Enter your marks");
+        Console.WriteLine("Enter your marks");
         int marks = Convert.ToInt32(Console.ReadLine());
 
       
