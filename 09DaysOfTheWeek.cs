@@ -11,7 +11,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter a no.to get the day of the week");
+        Console.WriteLine("Enter a no.to get the day of the week");
         int datestamp = Convert.ToInt32(Console.ReadLine());
 
         switch (datestamp)
