@@ -11,7 +11,7 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter your age");
+        Console.WriteLine("Enter your age");
         int age = Convert.ToInt32(Console.ReadLine());
         
         if (age >= 18)
