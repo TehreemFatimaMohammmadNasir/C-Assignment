@@ -9,8 +9,7 @@ Write your code in this editor and press "Run" button to execute it.
 using System;
 class HelloWorld {
   static void Main() {
-    Console.WriteLine("Hello World");
-     Console.Write("Enter an integer: ");
+   Console.WriteLine("Enter an integer: ");
      int num = Convert.ToInt32(Console.ReadLine());
         
         if (num % 2 == 0)
